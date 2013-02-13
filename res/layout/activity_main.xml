@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/homebg">
+
+   
+    <Button
+        android:id="@+id/shoot"
+        android:layout_width="160sp"
+        android:layout_height="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180sp"
+        android:background="@drawable/main_activity_button"
+        android:onClick="onClick"
+        android:text="Shoot"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="160sp"
+        android:layout_height="40sp"
+        android:layout_alignLeft="@+id/shoot"
+        android:layout_below="@+id/shoot"
+        android:layout_marginTop="70sp"
+        android:background="@drawable/main_activity_button"
+        android:onClick="onClick"
+        android:text="Records"
+        android:textColor="#000" />
+
+</RelativeLayout>
